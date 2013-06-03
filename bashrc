@@ -1,3 +1,5 @@
+alias c='clear'
+alias sudo='sudo '
 alias ls='ls -GF'
 alias ll='ls -l'
 alias la='ls -a'
@@ -11,3 +13,6 @@ alias hide='chflags hidden'
 alias show='chflags nohidden'
 alias sora='open /Applications/MPlayerX.app ~/Movies/空は高く\ 風は歌う.mkv'
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+alias vibr='gvim /Users/pxs/Software.localized/Github/bashrc/bashrc'
+alias vivr='gvim /Users/pxs/Software.localized/Github/vimrc/vimrc'
+alias vihosts='gvim /etc/hosts'
