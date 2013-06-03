@@ -10,3 +10,4 @@ alias cowsay='fortune | cowsay'
 alias hide='chflags hidden'
 alias show='chflags nohidden'
 alias sora='open /Applications/MPlayerX.app ~/Movies/空は高く\ 風は歌う.mkv'
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
