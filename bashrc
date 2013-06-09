@@ -22,7 +22,7 @@ alias vihosts='mvim /etc/hosts'
 ## using packages from homebrew first
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-## update brew automatically
+## homebrew auto completion
 source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
 
 ## for toilet
@@ -38,3 +38,6 @@ alias cowsay='fortune | cowsay'
 
 # for the theme 空は高く 風は歌う
 export LSCOLORS=HxfecxdxGxegedabagacad
+
+# For git in command line
+source .git-completion.bash
