@@ -20,7 +20,7 @@ alias vihosts='mvim /etc/hosts'
 
 # homebrew 
 ## using packages from homebrew first
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin
 
 ## homebrew auto completion
 source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
