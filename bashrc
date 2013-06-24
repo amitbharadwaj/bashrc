@@ -9,7 +9,6 @@ alias ll='ls -lh'
 alias la='ls -a'
 alias l='ls -alh'
 alias md5='md5 -r'
-alias md5sum='md5 -r'
 alias mvim='open -a /Applications/MacVim.app'
 
 # for easily edit .bash_profile .vimrc and hosts
