@@ -10,6 +10,7 @@ alias la='ls -a'
 alias l='ls -alh'
 alias md5='md5 -r'
 alias mvim='open -a /Applications/MacVim.app'
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 # for easily edit .bash_profile .vimrc and hosts
 alias vibr='mvim /Users/pxs/Software.localized/Github/bashrc/bashrc'
