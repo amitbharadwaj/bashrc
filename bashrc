@@ -9,8 +9,8 @@ alias ll='ls -lh'
 alias la='ls -a'
 alias l='ls -alh'
 alias md5='md5 -r'
-alias md5sum='md5 -r'
 alias mvim='open -a /Applications/MacVim.app'
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 # for easily edit .bash_profile .vimrc and hosts
 alias vibr='mvim /Users/pxs/Software.localized/Github/bashrc/bashrc'
@@ -41,3 +41,5 @@ export LSCOLORS=HxfecxdxGxegedabagacad
 
 # For git in command line
 source .git-completion.bash
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
