@@ -5,7 +5,8 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="af-magic"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -65,9 +66,27 @@ alias hide='chflags hidden'
 alias show='chflags nohidden'
 
 # Helps
-unalias run-help
-autoload run-help
-HELPDIR=/usr/local/share/zsh/helpfiles
+#unalias run-help
+#autoload run-help
+#HELPDIR=/usr/local/share/zsh/helpfiles
 
 # Highlight syntax
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# 自定义 af-magic 主题下的 PROMPT 和 RPROMPT
+if [ "$ZSH_THEME" = "af-magic" ]
+then
+    # primary prompt for theme af-magic
+    PROMPT='$FG[237]------------------------------------------------------------%{$reset_color%}
+$FG[032]当前目录:%~
+%{$fg[red]%}%D{%b}月%D{%d}日 周%D{%a}\
+$(git_prompt_info) \
+$FG[105]%(!.#.»)%{$reset_color%} '
+
+    # right prompt for theme af-magic
+    RPROMPT='%{$fg[red]%}%D{%H:%M:%S}%{$reset_color%}%'
+fi
+
+# 修改终端标题
+ZSH_THEME_TERM_TITLE_IDLE=%~
+ZSH_THEME_TERM_TAB_TITLE_IDLE=彭雪松
